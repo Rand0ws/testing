@@ -17,8 +17,7 @@
               <form action="/profile" enctype="multipart/form-data" method="POST">
                 <div class="input-group">
                   <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="images" name="images"
-                           aria-describedby="inputGroupFileAddon">
+                    <input type="file" class="custom-file-input" id="images" name="images">
                     <label class="custom-file-label" for="images">Выберите файл</label>
                   </div>
 
