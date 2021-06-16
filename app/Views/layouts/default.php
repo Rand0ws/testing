@@ -11,7 +11,7 @@ if (isset($_POST['logout'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><?= $title ? $title : 'Profile.loc' ?></title>
   <link rel="stylesheet"
@@ -29,7 +29,7 @@ if (isset($_POST['logout'])) {
         <a href="/" class="navbar-brand">PROFILE</a>
 
         <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,8 +77,8 @@ if (isset($_POST['logout'])) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="/assets/js/main.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="/assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>

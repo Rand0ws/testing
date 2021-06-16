@@ -18,7 +18,7 @@
         <div class="card-body">
           <div class="tab-content">
             <div id="auth" role="tabpanel" class="tab-pane active">
-              <form action="" method="POST">
+              <form action="/" method="POST">
                 <div class="form-group">
                   <input class="form-control" type="text" name="login" placeholder="Логин">
                 </div>
@@ -33,7 +33,7 @@
             </div>
 
             <div id="registration" role="tabpanel" class="tab-pane">
-              <form action="" method="POST">
+              <form action="/" method="POST">
                 <div class="form-group">
                   <input class="form-control" type="text" name="login" placeholder="Ваше имя">
                 </div>
